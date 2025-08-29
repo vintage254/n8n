@@ -1,0 +1,8 @@
+{
+  "name": "installed-nodes",
+  "private": true,
+  "dependencies": {
+    "n8n-nodes-aiscraper": "0.1.6",
+    "n8n-nodes-whatsable": "2.1.2"
+  }
+}
