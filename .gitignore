@@ -1,0 +1,24 @@
+# Ignore logs
+*.log
+
+# Ignore node_modules
+node_modules/
+nodes/node_modules/
+
+# Ignore temp files
+*.tmp
+*.cache
+
+# Ignore backups
+*.sqlite-journal
+*.sqlite-wal
+*.sqlite-shm
+
+# Ignore everything else by default
+*
+
+# Allow these important files
+!.gitignore
+!database.sqlite
+!.env
+!config
